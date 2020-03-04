@@ -12,8 +12,11 @@ const IndexPage = () => (
       <div className="container">
       <Menu />
 
-      <div className="flex m-auto ">
-        <h1 className="m-auto">FULL STACK DEVELOPER</h1>
+      <div className="row menu-header">
+      <div className="col-12 align-self-center">
+        <h1 className="m-auto banner-text">FULL STACK DEVELOPER</h1>
+      </div>
+
       </div>
 
       </div>
