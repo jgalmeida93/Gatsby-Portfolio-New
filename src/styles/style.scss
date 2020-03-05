@@ -26,14 +26,9 @@ body {
     margin-right: auto;
     width: 100%;
 
-    .banner-text {
-        color: white;
-        text-align: center;
-        font-size: 3.5rem;
-    }
 }
 
-header {
+.header {
     background-image: url(../images/banner.png);
     background-size: cover;
     background-position: center;
@@ -101,8 +96,41 @@ header {
     color: white;
     line-height: 2em;
     font-size: 1.2em;
+    @media (max-width: 768px) {
+        margin-top: 10px;
+    }
 }
 .btn-main:hover {
     background-color: rgb(6, 46, 65);
     color: white;
+}
+
+.text-div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 768px) {
+        height: 75%;
+    }
+}
+
+.banner-text {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.foto-jonas {
+    margin-bottom: 1em;
+}
+
+.sobre-texto {
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+}
+
+.stronger {
+    font-weight: 700;
 }

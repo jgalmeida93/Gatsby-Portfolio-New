@@ -16,14 +16,7 @@ const IndexPage = () => (
       <title>JGALMEIDA</title>
     </Helmet>
     <header>
-      <div className="container">
-      <Menu />
       <Header />
-
-
-
-      </div>
-
     </header>
 
       <Sobre />

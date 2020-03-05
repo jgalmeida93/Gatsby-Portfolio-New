@@ -19,7 +19,7 @@ const Contato = () => {
      
                 </div>
                 <div className="form-group">
-                <label to="message">Message</label>
+                <label to="message">Mensagem</label>
                 <textarea type="text" className="form-control form-control-lg" id="message" name="message" rows="3" required></textarea>
 
                 </div>
