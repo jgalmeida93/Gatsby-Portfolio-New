@@ -29,17 +29,17 @@ const Sobre = () => {
                     </p>
                     <div className="row mt-5">
                         <div className="col-4 text-center">
-                        <a href="https://github.com/jgalmeida93" className="btn btn-block btn-danger"><FaGithubAlt size="2em"/></a>             
+                        <a href="https://github.com/jgalmeida93" className="btn btn-block btn-main"><FaGithubAlt size="2em"/></a>             
                             
                         </div>
                         <div className="col-4 text-center">
-                        <a href="https://www.linkedin.com/in/jonas-gabriel-de-almeida-4ab460187/" className="btn btn-block btn-danger">
+                        <a href="https://www.linkedin.com/in/jonas-gabriel-de-almeida-4ab460187/" className="btn btn-block btn-main">
                                 <FaLinkedin size="2em"/>
                         </a>
                             
                         </div>
                         <div className="col-4 text-center">
-                            <a href="https://www.instagram.com/jgalmeida93/" className="btn btn-block btn-danger"><FaInstagram size="2em"/></a>
+                            <a href="https://www.instagram.com/jgalmeida93/" className="btn btn-block btn-main"><FaInstagram size="2em"/></a>
                         </div>
                     </div>
 
