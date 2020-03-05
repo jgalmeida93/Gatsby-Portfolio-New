@@ -19,8 +19,8 @@ const Sobre = () => {
                     Meu nome é Jonas e sou apaixonado por Front End. Estou em busca de oportunidades para crescer na carreira. 
                     Atualmente estou Júnior, com muita garra e vontade de aprender coisas novas.
                     </p>
+                    <h6>Experiência</h6>
                     <p>
-                        <h6>Experiência</h6>
                     Tenho experiência com Angular, HTML, CSS, JavaScript
                     </p>
                     <h6>Estudando</h6>
