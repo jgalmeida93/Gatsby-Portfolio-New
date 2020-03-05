@@ -11,9 +11,9 @@ import { FaInstagram } from 'react-icons/fa';
 const Sobre = () => {
     return (
         <div className="container sobre" >
-             <h2 className="sobre-texto" >SOBRE MIM</h2>
+             <h2 className="sobre-texto" id="sobre">SOBRE MIM</h2>
             <div className="row sobre flex-column-reverse flex-sm-row">
-                <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7" id="sobre">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7" >
                     <p className="texto-sobre">
                     Meu nome é Jonas e sou apaixonado por Front End. Estou em busca de oportunidades para crescer na carreira. 
                     Tenho determinação e vontade de aprender coisas novas.
