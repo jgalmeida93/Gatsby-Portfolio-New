@@ -17,7 +17,7 @@ const Sobre = () => {
                     <h2>SOBRE MIM</h2>
                     <p className="texto-sobre">
                     Meu nome é Jonas e sou apaixonado por Front End. Estou em busca de oportunidades para crescer na carreira. 
-                    Atualmente estou Júnior, com muita garra e vontade de aprender coisas novas.
+                    Tenho determinação e vontade de aprender coisas novas.
                     </p>
                     <h6>Experiência</h6>
                     <p>
