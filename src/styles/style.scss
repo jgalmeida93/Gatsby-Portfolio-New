@@ -58,10 +58,51 @@ header {
 
 .trabalhos {
     height: 200px;
-    .trabalhos-texto {
-        text-align: center;
-        color: white;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
+}
+
+.trabalhos-texto {
+    text-align: center;
+    color: white;
+}
+
+.contato {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: #1b1b1b;
+}
+
+.logo-footer {
+    color: white;
+    font-size: 2rem;
+}
+
+.white-row {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.social-footer {
+    text-decoration: none;
+    color: black;
+}
+
+.social-footer:hover {
+    color: #08415C;
+}
+
+.btn-main {
+    background-color: #08415C;
+    color: white;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+.btn-main:hover {
+    background-color: rgb(6, 46, 65);
+    color: white;
 }
