@@ -1,5 +1,6 @@
 import React from "react"
-import { Row, Col, Container, ListGroup } from "react-bootstrap";
+import { Helmet } from 'react-helmet';
+
 import '../styles/style.scss';
 import Menu from '../components/menu';
 import Header from '../components/header';
@@ -11,6 +12,9 @@ import Footer from '../components/footer';
 
 const IndexPage = () => (
   <div>
+    <Helmet>
+      <title>JGALMEIDA</title>
+    </Helmet>
     <header>
       <div className="container">
       <Menu />
