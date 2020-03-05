@@ -7,7 +7,7 @@ const Header = () => {
       <div className="header">
         <Menu />
         <div className="text-div">
-          <h1 className="m-auto banner-text"><span className="bracket">{`{`}</span>FRONTEND DEVELOPER<span className="bracket">{`}`}</span></h1>
+          <h1 className="m-auto banner-text"><span className="bracket">{`{ `}</span>FRONTEND DEVELOPER<span className="bracket">{` }`}</span></h1>
         </div>
 
       </div>
