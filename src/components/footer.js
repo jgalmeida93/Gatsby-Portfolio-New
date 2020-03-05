@@ -16,7 +16,7 @@ const Footer = () => {
                             <span className="logo-decoration"></span><strong>JGA</strong>LMEIDA
                         </div>
                 </div>
-
+            </div>
                 <div className="white-row">
                         <div className="row mx-0 my-4">                            
                         <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
@@ -33,7 +33,11 @@ const Footer = () => {
                         </div>
                 </div>
 
-            </div>
+                <div className="by text-center mt-3">
+                    <small>Criado por <a href="https://github.com/jgalmeida93">Jonas Gabriel</a></small>
+                </div>
+
+
 
         </footer>
 
