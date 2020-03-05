@@ -5,7 +5,8 @@ import Menu from '../components/menu';
 import Header from '../components/header';
 import Sobre from '../components/sobre';
 import Trabalhos from '../components/trabalhos';
-
+import Contato from '../components/contato';
+import Footer from '../components/footer';
 
 
 const IndexPage = () => (
@@ -23,6 +24,8 @@ const IndexPage = () => (
 
       <Sobre />
       <Trabalhos />
+      <Contato />
+      <Footer />
  </div>
 )
 
