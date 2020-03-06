@@ -34,11 +34,11 @@ const Footer = () => {
                     </Row>
                 </div>
 
-                <Row>
-                    <Col className="text-center by">
+
+                    <div className="text-center by">
                         <small>Criado por <a href="https://github.com/jgalmeida93">Jonas Gabriel</a></small>
-                    </Col>
-                </Row>
+                    </div>
+
         </footer>
 
     )
