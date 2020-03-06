@@ -1,36 +1,29 @@
 import React from 'react'
+import { Container } from 'react-bootstrap';
+import Form from 'react-bootstrap/Form'
 
 const Contato = () => {
     return (
-        <div className="container contato">
+        <Container className="contato">
             <h2 id="contato" className="mb-4">Contato</h2>
-            <form method="post" action="https://formspree.io/xlenakyq">
-
-                <div className="form-group row">
-                    <div className="col-12">
-                    <label to="nome">Nome</label>
-                         <input className="form-control form-control-lg" id="nome" type="text" name="nome" required />
-                    </div>
-                </div>
-                <div className="form-group">
-                    <label to="email">Email</label>   
-                        <input type="email" className="form-control form-control-lg" id="email" name="email" 
-                        pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required />
-     
-                </div>
-                <div className="form-group">
-                <label to="message">Mensagem</label>
-                <textarea type="text" className="form-control form-control-lg" id="message" name="message" rows="3" required></textarea>
-
-                </div>
-
-            
-            <button type="submit" className="btn btn-block btn-main">
-                Enviar
-            </button>
-
-        </form>
-        </div>
+                <Form action="https://formspree.io/xlenakyq" method="POST">
+                        <Form.Group>
+                            <Form.Label>Nome</Form.Label>
+                            <Form.Control type="text" placeholder="Digite seu nome" />
+                        </Form.Group>
+                    <Form.Group>
+                        <Form.Label>Email</Form.Label>
+                        <Form.Control type="email" placeholder="email@email.com" />
+                    </Form.Group>
+                    <Form.Group>
+                        <Form.Label>Mensagem</Form.Label>
+                        <Form.Control as="textarea" rows="3" placeholder="Digite o conteúdo da mensagem" />
+                    </Form.Group>
+                    <button type="submit" className="btn btn-block btn-main">
+                        Enviar
+                    </button>
+                </Form>
+        </Container>
     )
 }
 

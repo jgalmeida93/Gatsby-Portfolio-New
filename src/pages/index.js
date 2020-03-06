@@ -11,7 +11,7 @@ import Footer from '../components/footer';
 
 
 const IndexPage = () => (
-  <div>
+  <div id="topo">
     <Helmet>
       <title>JGALMEIDA</title>
     </Helmet>
